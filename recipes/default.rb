@@ -21,7 +21,6 @@ include_recipe "collectd"
 
 # Include standard plugins
 include_recipe "collectd_plugins::syslog"
-include_recipe "collectd_plugins::rrdtool"
 include_recipe "collectd_plugins::cpu"
 include_recipe "collectd_plugins::df"
 include_recipe "collectd_plugins::disk"
